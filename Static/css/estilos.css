@@ -1,0 +1,73 @@
+body
+{background-color: #021bfd;
+}
+
+.header {
+  width: 100%;
+  height: 75px;
+  background: #101922;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+}
+
+h1 {
+    background-color: #23CFCF; /*Color de fondo*/
+    font-family: "Montserrat" ,sans-serif; /*Tipo de letra*/
+    font-size: 250%; /*TAMAÑO DE LETRA*/
+    color: #0A3D3D;
+    text-align: center;
+    text-transform: uppercase;
+    border:     4px solid #116464; /* Borde negro solido de 2 pixiles */
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+h3{
+    font-family: "Montserrat" ,sans-serif;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    border:     3px solid #000000; /* Borde negro solido de 2 pixiles */
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+    margin: 10px;
+}
+p:nth-child(2){
+    color: rgb(5, 5, 5);
+}
+
+.boton {
+  background-color: #3498db;
+  color: white;
+  transition: 0.3s; /* Suaviza el efecto */
+}
+
+.boton:hover {
+  background-color: #042b27;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2); /* Sombra para efecto 3D */
+}
+
+    /*Tamño para celular*/
+@media screen and (max-width: 599px) {
+body {
+background-color: rgb(12, 12, 12);
+}
+}
+/*Pantalla media*/
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  body {
+    background-color: rgb(255, 7, 7);
+  }
+  
+}
+/*Pantalla maxima*/
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: rgb(66, 7, 160);
+  }
+}
